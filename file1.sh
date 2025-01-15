@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Email details
-TO_EMAIL="khadijahzazali02@gmail.com"
+TO_EMAIL="your-email-here"
 SUBJECT="System Report: $(date)"
 BODY=$(df -h; echo ""; uptime; echo ""; free -h)
 
